@@ -1,0 +1,8 @@
+asyncio
+aiohttp
+feedparser
+supabase
+python-dotenv
+uvicorn
+fastapi
+pydantic

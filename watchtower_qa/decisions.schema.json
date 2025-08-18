@@ -1,0 +1,104 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Watchtower Edge Function Schema",
+  "description": "Schema for Watchtower's process-intent Edge Function input and output validation",
+  
+  "input": {
+    "type": "object",
+    "title": "Edge Function Input",
+    "required": ["strategic_intent"],
+    "properties": {
+      "strategic_intent": {
+        "type": "string",
+        "minLength": 5,
+        "maxLength": 500,
+        "description": "Primary business objective or strategic goal"
+      },
+      "context_description": {
+        "type": "string",
+        "maxLength": 1000,
+        "description": "Optional context, constraints, or background information"
+      },
+      "context_links": {
+        "type": "string",
+        "maxLength": 500,
+        "description": "Optional reference links for additional context"
+      },
+      "requested_decisions": {
+        "type": "integer",
+        "minimum": 3,
+        "maximum": 5,
+        "description": "Specific number of decision points requested (optional, defaults to auto)"
+      }
+    },
+    "additionalProperties": false
+  },
+
+  "output": {
+    "type": "object",
+    "title": "Edge Function Output",
+    "required": ["decisions"],
+    "properties": {
+      "decisions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["id", "title", "description", "type"],
+          "properties": {
+            "id": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "title": {
+              "type": "string",
+              "minLength": 10,
+              "maxLength": 200,
+              "description": "Decision point presenting specific alternatives"
+            },
+            "description": {
+              "type": "string",
+              "minLength": 10,
+              "maxLength": 300,
+              "description": "Why this choice matters and what alternatives exist"
+            },
+            "type": {
+              "type": "string",
+              "enum": ["PIR", "FFIR"],
+              "description": "PIR = External intelligence, FFIR = Internal intelligence"
+            },
+            "options": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 2,
+              "maxItems": 5,
+              "description": "Available decision options"
+            },
+            "usedFallback": {
+              "type": "boolean",
+              "description": "Whether fallback logic was used"
+            }
+          },
+          "additionalProperties": false
+        },
+        "minItems": 3,
+        "maxItems": 5,
+        "description": "Generated decision points"
+      },
+      "pir_workflow": {
+        "type": "object",
+        "description": "PIR workflow data structure"
+      },
+      "ffir_workflow": {
+        "type": "object", 
+        "description": "FFIR workflow data structure"
+      },
+      "usedFallback": {
+        "type": "boolean",
+        "description": "Whether the response used fallback logic"
+      }
+    },
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,4018 @@
+{
+  "testName": "standard",
+  "timestamp": "2025-06-14T16:24:51.354Z",
+  "summary": {
+    "overview": {
+      "totalTests": 200,
+      "passed": 52,
+      "failed": 148,
+      "passRate": "26.00%"
+    },
+    "api": {
+      "totalCalls": 200,
+      "failures": 0,
+      "successRate": "100.00%"
+    },
+    "errors": {
+      "total": 148,
+      "byType": {
+        "business_logic": 147,
+        "output_validation": 9
+      }
+    }
+  },
+  "failedTests": [
+    {
+      "input": {
+        "strategic_intent": "Penetrate the enterprise segment with our SMB product",
+        "_testId": 1,
+        "_category": "market_expansion",
+        "_expectedComplexity": "low",
+        "context_description": "Market leader reducing prices aggressively",
+        "context_links": "https://notion.so/company/Strategic-Initiative-bn6u1sqwnit",
+        "requested_decisions": 3
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 12314,
+        "timestamp": "2025-06-14T15:49:42.896Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Modernize our legacy systems to cloud-native architecture",
+        "_testId": 3,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9718,
+        "timestamp": "2025-06-14T15:50:00.534Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Respond to new competitor entering our market",
+        "_testId": 4,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low",
+        "context_description": "Rapid technological change in our industry"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9811,
+        "timestamp": "2025-06-14T15:50:10.450Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Restructure debt to improve financial flexibility",
+        "_testId": 6,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low",
+        "context_links": "https://company.com/strategy-docs/initiative-7m2o7w82kzt"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 10494,
+        "timestamp": "2025-06-14T15:50:35.384Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Acquire complementary technology company",
+        "_testId": 7,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "New regulations coming into effect. Rapid technological change in our industry"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8629,
+        "timestamp": "2025-06-14T15:50:44.123Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Penetrate the enterprise segment with our SMB product",
+        "_testId": 9,
+        "_category": "market_expansion",
+        "_expectedComplexity": "low",
+        "requested_decisions": 5
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 5,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 10790,
+        "timestamp": "2025-06-14T15:51:10.385Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Modernize our legacy systems to cloud-native architecture",
+        "_testId": 11,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low",
+        "context_links": "https://confluence.company.com/strategic-planning/eg6ozwyktks"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9749,
+        "timestamp": "2025-06-14T15:51:28.148Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Defend against price competition from established players",
+        "_testId": 12,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 11197,
+        "timestamp": "2025-06-14T15:51:39.457Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Restructure debt to improve financial flexibility",
+        "_testId": 14,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 12033,
+        "timestamp": "2025-06-14T15:52:02.474Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Respond to supply chain disruption",
+        "_testId": 16,
+        "_category": "crisis_management",
+        "_expectedComplexity": "low",
+        "context_description": "Economic uncertainty affecting customer spending. Supply chain instability",
+        "context_links": "https://company.com/strategy-docs/initiative-k84jdnfooli"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9485,
+        "timestamp": "2025-06-14T15:52:29.163Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Enter the healthcare vertical with our existing technology",
+        "_testId": 17,
+        "_category": "market_expansion",
+        "_expectedComplexity": "low",
+        "requested_decisions": 4
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 4,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 12056,
+        "timestamp": "2025-06-14T15:52:41.323Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Release our enterprise security suite",
+        "_testId": 18,
+        "_category": "product_launch",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 7835,
+        "timestamp": "2025-06-14T15:52:49.275Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Digitize our supply chain management",
+        "_testId": 19,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low",
+        "context_description": "Must comply with GDPR and SOX regulations"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9058,
+        "timestamp": "2025-06-14T15:52:58.444Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Respond to new competitor entering our market",
+        "_testId": 20,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8335,
+        "timestamp": "2025-06-14T15:53:06.894Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Restructure debt to improve financial flexibility",
+        "_testId": 22,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "Customer churn increasing in key segments. Recent leadership changes affecting strategy"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9949,
+        "timestamp": "2025-06-14T15:53:31.766Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Acquire complementary technology company",
+        "_testId": 23,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 5331,
+        "timestamp": "2025-06-14T15:53:37.211Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Address significant security breach and rebuild trust",
+        "_testId": 24,
+        "_category": "crisis_management",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 14172,
+        "timestamp": "2025-06-14T15:53:51.490Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Digitize our supply chain management",
+        "_testId": 27,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "output_validation",
+          "field": "/decisions/2/description",
+          "message": "must NOT have more than 300 characters"
+        },
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 13758,
+        "timestamp": "2025-06-14T15:54:20.510Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Respond to new competitor entering our market",
+        "_testId": 28,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low",
+        "context_description": "Supply chain instability"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9122,
+        "timestamp": "2025-06-14T15:54:29.741Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Achieve profitability within 12 months",
+        "_testId": 30,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 13423,
+        "timestamp": "2025-06-14T15:54:53.962Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Manage reputation crisis from product failure",
+        "_testId": 32,
+        "_category": "crisis_management",
+        "_expectedComplexity": "high"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected high complexity, but system assessed medium",
+          "expected": "high",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 11378,
+        "timestamp": "2025-06-14T15:55:17.394Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Penetrate the enterprise segment with our SMB product",
+        "_testId": 33,
+        "_category": "market_expansion",
+        "_expectedComplexity": "low",
+        "requested_decisions": 5
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 5,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 11094,
+        "timestamp": "2025-06-14T15:55:28.597Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Digitize our supply chain management",
+        "_testId": 35,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9758,
+        "timestamp": "2025-06-14T15:55:50.692Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Respond to new competitor entering our market",
+        "_testId": 36,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low",
+        "context_links": "https://company.com/strategy-docs/initiative-pzickev6xc"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9791,
+        "timestamp": "2025-06-14T15:56:00.601Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Prepare for an IPO within 24 months",
+        "_testId": 38,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 5098,
+        "timestamp": "2025-06-14T15:56:13.695Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Build ecosystem of technology integrations",
+        "_testId": 39,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 5794,
+        "timestamp": "2025-06-14T15:56:19.596Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Address significant security breach and rebuild trust",
+        "_testId": 40,
+        "_category": "crisis_management",
+        "_expectedComplexity": "low",
+        "context_description": "Seasonal demand patterns to consider"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 10171,
+        "timestamp": "2025-06-14T15:56:29.878Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Enter the healthcare vertical with our existing technology",
+        "_testId": 41,
+        "_category": "market_expansion",
+        "_expectedComplexity": "low",
+        "context_links": "https://sharepoint.company.com/strategy/ghd6pbxijpv",
+        "requested_decisions": 4
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 4,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 18319,
+        "timestamp": "2025-06-14T15:56:48.304Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Transform our sales process with digital tools",
+        "_testId": 43,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low",
+        "context_description": "Must comply with GDPR and SOX regulations"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9425,
+        "timestamp": "2025-06-14T15:57:06.559Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Respond to competitor's patent challenges",
+        "_testId": 44,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "output_validation",
+          "field": "/decisions/0/description",
+          "message": "must NOT have more than 300 characters"
+        },
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 11213,
+        "timestamp": "2025-06-14T15:57:17.889Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Raise a Series B funding round of $25M",
+        "_testId": 46,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "Economic uncertainty affecting customer spending",
+        "context_links": "https://confluence.company.com/strategic-planning/ndp4zb7wwln"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9522,
+        "timestamp": "2025-06-14T15:57:40.147Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Address significant security breach and rebuild trust",
+        "_testId": 48,
+        "_category": "crisis_management",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9455,
+        "timestamp": "2025-06-14T15:57:57.874Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Establish a presence in the Latin American market",
+        "_testId": 49,
+        "_category": "market_expansion",
+        "_expectedComplexity": "low",
+        "context_description": "Supply chain instability",
+        "requested_decisions": 3
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9611,
+        "timestamp": "2025-06-14T15:58:07.587Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Release our enterprise security suite",
+        "_testId": 50,
+        "_category": "product_launch",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8701,
+        "timestamp": "2025-06-14T15:58:16.404Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Implement AI-driven customer service automation",
+        "_testId": 51,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low",
+        "context_links": "https://sharepoint.company.com/strategy/jx24aoraola"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9876,
+        "timestamp": "2025-06-14T15:58:26.395Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Counter competitor's acquisition of key supplier",
+        "_testId": 52,
+        "_category": "competitive_response",
+        "_expectedComplexity": "high",
+        "context_description": "Key team members unavailable for 3 months"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected high complexity, but system assessed medium",
+          "expected": "high",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9334,
+        "timestamp": "2025-06-14T15:58:35.834Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Optimize cash flow for sustainable growth",
+        "_testId": 54,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 5159,
+        "timestamp": "2025-06-14T15:58:56.279Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Establish channel partner network",
+        "_testId": 55,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "Must comply with GDPR and SOX regulations. Existing technical debt slowing development"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 12654,
+        "timestamp": "2025-06-14T15:59:09.045Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Manage reputation crisis from product failure",
+        "_testId": 56,
+        "_category": "crisis_management",
+        "_expectedComplexity": "high",
+        "context_links": "https://sharepoint.company.com/strategy/hfjuqmfxqvb"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected high complexity, but system assessed medium",
+          "expected": "high",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8203,
+        "timestamp": "2025-06-14T15:59:17.366Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Penetrate the enterprise segment with our SMB product",
+        "_testId": 57,
+        "_category": "market_expansion",
+        "_expectedComplexity": "low",
+        "requested_decisions": 5
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 5,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9284,
+        "timestamp": "2025-06-14T15:59:26.763Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Release our enterprise security suite",
+        "_testId": 58,
+        "_category": "product_launch",
+        "_expectedComplexity": "low",
+        "context_description": "Key team members unavailable for 3 months. Must comply with GDPR and SOX regulations"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 10963,
+        "timestamp": "2025-06-14T15:59:37.829Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Digitize our supply chain management",
+        "_testId": 59,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8690,
+        "timestamp": "2025-06-14T15:59:46.623Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Defend against price competition from established players",
+        "_testId": 60,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8971,
+        "timestamp": "2025-06-14T15:59:55.700Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Build redundant infrastructure across three regions",
+        "_testId": 61,
+        "_category": "scaling_operations",
+        "_expectedComplexity": "low",
+        "context_description": "Regulatory approval required before launch",
+        "context_links": "https://notion.so/company/Strategic-Initiative-icqx77zmihp",
+        "requested_decisions": 3
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed high",
+          "expected": "low",
+          "actual": "high"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 5983,
+        "timestamp": "2025-06-14T16:00:01.789Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Raise a Series B funding round of $25M",
+        "_testId": 62,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8671,
+        "timestamp": "2025-06-14T16:00:10.576Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Address significant security breach and rebuild trust",
+        "_testId": 64,
+        "_category": "crisis_management",
+        "_expectedComplexity": "low",
+        "context_description": "Key team members unavailable for 3 months"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 7738,
+        "timestamp": "2025-06-14T16:00:28.481Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Establish a presence in the Latin American market",
+        "_testId": 65,
+        "_category": "market_expansion",
+        "_expectedComplexity": "low",
+        "requested_decisions": 4
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 4,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 24922,
+        "timestamp": "2025-06-14T16:00:53.512Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Introduce a mobile-first version of our product",
+        "_testId": 66,
+        "_category": "product_launch",
+        "_expectedComplexity": "low",
+        "context_links": "https://notion.so/company/Strategic-Initiative-qku0bjhqabo"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 12487,
+        "timestamp": "2025-06-14T16:01:06.110Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Implement AI-driven customer service automation",
+        "_testId": 67,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low",
+        "context_description": "Market leader reducing prices aggressively"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 15703,
+        "timestamp": "2025-06-14T16:01:21.925Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Restructure debt to improve financial flexibility",
+        "_testId": 70,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "Technical team stretched across multiple projects"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed high",
+          "expected": "low",
+          "actual": "high"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 5,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 12605,
+        "timestamp": "2025-06-14T16:02:15.153Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Establish channel partner network",
+        "_testId": 71,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low",
+        "context_links": "https://company.com/strategy-docs/initiative-0h7knztanxum"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8794,
+        "timestamp": "2025-06-14T16:02:24.066Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Address significant security breach and rebuild trust",
+        "_testId": 72,
+        "_category": "crisis_management",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 10269,
+        "timestamp": "2025-06-14T16:02:34.445Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Implement AI-driven customer service automation",
+        "_testId": 75,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 11069,
+        "timestamp": "2025-06-14T16:03:09.438Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Respond to new competitor entering our market",
+        "_testId": 76,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low",
+        "context_description": "Cultural integration challenges from acquisition",
+        "context_links": "https://confluence.company.com/strategic-planning/vderxrkcth"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 10651,
+        "timestamp": "2025-06-14T16:03:20.191Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Prepare for an IPO within 24 months",
+        "_testId": 78,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 4875,
+        "timestamp": "2025-06-14T16:03:36.312Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Create joint venture in new market",
+        "_testId": 79,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "Market leader reducing prices aggressively"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 7350,
+        "timestamp": "2025-06-14T16:03:43.780Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Respond to supply chain disruption",
+        "_testId": 80,
+        "_category": "crisis_management",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 6860,
+        "timestamp": "2025-06-14T16:03:50.755Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Implement AI-driven customer service automation",
+        "_testId": 83,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8077,
+        "timestamp": "2025-06-14T16:04:21.842Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Optimize cash flow for sustainable growth",
+        "_testId": 86,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low",
+        "context_links": "https://notion.so/company/Strategic-Initiative-8xka081vs9l"
+      },
+      "errors": [
+        {
+          "type": "output_validation",
+          "field": "/decisions/0/description",
+          "message": "must NOT have more than 300 characters"
+        },
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 5738,
+        "timestamp": "2025-06-14T16:04:45.569Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Establish channel partner network",
+        "_testId": 87,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "output_validation",
+          "field": "/decisions/2/description",
+          "message": "must NOT have more than 300 characters"
+        },
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 13501,
+        "timestamp": "2025-06-14T16:04:59.177Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Respond to supply chain disruption",
+        "_testId": 88,
+        "_category": "crisis_management",
+        "_expectedComplexity": "low",
+        "context_description": "Patent disputes affecting the market"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9649,
+        "timestamp": "2025-06-14T16:05:08.933Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Establish a presence in the Latin American market",
+        "_testId": 89,
+        "_category": "market_expansion",
+        "_expectedComplexity": "low",
+        "requested_decisions": 4
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 4,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 12854,
+        "timestamp": "2025-06-14T16:05:21.889Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Introduce a mobile-first version of our product",
+        "_testId": 90,
+        "_category": "product_launch",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8602,
+        "timestamp": "2025-06-14T16:05:30.597Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Modernize our legacy systems to cloud-native architecture",
+        "_testId": 91,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low",
+        "context_description": "Key team members unavailable for 3 months",
+        "context_links": "https://notion.so/company/Strategic-Initiative-brtv7xucmne"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8267,
+        "timestamp": "2025-06-14T16:05:38.969Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Optimize cash flow for sustainable growth",
+        "_testId": 94,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "Existing technical debt slowing development"
+      },
+      "errors": [
+        {
+          "type": "output_validation",
+          "field": "/decisions/0/description",
+          "message": "must NOT have more than 300 characters"
+        },
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9095,
+        "timestamp": "2025-06-14T16:06:12.296Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Build ecosystem of technology integrations",
+        "_testId": 95,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 6260,
+        "timestamp": "2025-06-14T16:06:18.663Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Migrate to a microservices architecture",
+        "_testId": 99,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8002,
+        "timestamp": "2025-06-14T16:06:59.008Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Respond to competitor's patent challenges",
+        "_testId": 100,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low",
+        "context_description": "Patent disputes affecting the market"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 12035,
+        "timestamp": "2025-06-14T16:07:11.152Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Establish international sales and support teams",
+        "_testId": 101,
+        "_category": "scaling_operations",
+        "_expectedComplexity": "low",
+        "context_links": "https://confluence.company.com/strategic-planning/wc76onzvhec",
+        "requested_decisions": 4
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 4,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 13509,
+        "timestamp": "2025-06-14T16:07:24.765Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Achieve profitability within 12 months",
+        "_testId": 102,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9493,
+        "timestamp": "2025-06-14T16:07:34.370Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Build ecosystem of technology integrations",
+        "_testId": 103,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "Technology disruption changing customer expectations"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8924,
+        "timestamp": "2025-06-14T16:07:43.407Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Launch our SaaS platform in the Asian Pacific region",
+        "_testId": 105,
+        "_category": "market_expansion",
+        "_expectedComplexity": "medium",
+        "requested_decisions": 5
+      },
+      "errors": [
+        {
+          "type": "output_validation",
+          "field": "/decisions/0/description",
+          "message": "must NOT have more than 300 characters"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 5,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 11846,
+        "timestamp": "2025-06-14T16:08:15.238Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Release our enterprise security suite",
+        "_testId": 106,
+        "_category": "product_launch",
+        "_expectedComplexity": "low",
+        "context_description": "Economic uncertainty affecting customer spending",
+        "context_links": "https://company.com/strategy-docs/initiative-c8kpvcl6dzf"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 16809,
+        "timestamp": "2025-06-14T16:08:32.162Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Digitize our supply chain management",
+        "_testId": 107,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8522,
+        "timestamp": "2025-06-14T16:08:40.798Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Respond to new competitor entering our market",
+        "_testId": 108,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8601,
+        "timestamp": "2025-06-14T16:08:49.505Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Establish international sales and support teams",
+        "_testId": 109,
+        "_category": "scaling_operations",
+        "_expectedComplexity": "low",
+        "context_description": "Seasonal demand patterns to consider. Economic uncertainty affecting customer spending",
+        "requested_decisions": 3
+      },
+      "errors": [
+        {
+          "type": "output_validation",
+          "field": "/decisions/0/description",
+          "message": "must NOT have more than 300 characters"
+        },
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8909,
+        "timestamp": "2025-06-14T16:08:58.519Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Raise a Series B funding round of $25M",
+        "_testId": 110,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 12943,
+        "timestamp": "2025-06-14T16:09:11.570Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Establish channel partner network",
+        "_testId": 111,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low",
+        "context_links": "https://company.com/strategy-docs/initiative-9ggavlyejyo"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9898,
+        "timestamp": "2025-06-14T16:09:21.588Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Release our enterprise security suite",
+        "_testId": 114,
+        "_category": "product_launch",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 10168,
+        "timestamp": "2025-06-14T16:09:53.833Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Implement AI-driven customer service automation",
+        "_testId": 115,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low",
+        "context_description": "Cultural integration challenges from acquisition. Technical team stretched across multiple projects"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed high",
+          "expected": "low",
+          "actual": "high"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 5,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 16084,
+        "timestamp": "2025-06-14T16:10:10.033Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Defend against price competition from established players",
+        "_testId": 116,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low",
+        "context_links": "https://notion.so/company/Strategic-Initiative-vigspf1yok8"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 10469,
+        "timestamp": "2025-06-14T16:10:20.608Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Prepare for an IPO within 24 months",
+        "_testId": 118,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "Consolidation happening in our industry. Three new competitors entered market this year"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 11379,
+        "timestamp": "2025-06-14T16:10:48.141Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Build ecosystem of technology integrations",
+        "_testId": 119,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 6198,
+        "timestamp": "2025-06-14T16:10:54.453Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Manage reputation crisis from product failure",
+        "_testId": 120,
+        "_category": "crisis_management",
+        "_expectedComplexity": "high"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected high complexity, but system assessed medium",
+          "expected": "high",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 13375,
+        "timestamp": "2025-06-14T16:11:07.942Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Implement AI-driven customer service automation",
+        "_testId": 123,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9506,
+        "timestamp": "2025-06-14T16:11:40.111Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Defend against price competition from established players",
+        "_testId": 124,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low",
+        "context_description": "Product quality issues affecting reputation. Customer churn increasing in key segments"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 6152,
+        "timestamp": "2025-06-14T16:11:46.364Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Establish international sales and support teams",
+        "_testId": 125,
+        "_category": "scaling_operations",
+        "_expectedComplexity": "low",
+        "requested_decisions": 4
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 4,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 14192,
+        "timestamp": "2025-06-14T16:12:00.665Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Restructure debt to improve financial flexibility",
+        "_testId": 126,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low",
+        "context_links": "https://docs.google.com/document/d/9hc9ax7egf6/edit"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 12742,
+        "timestamp": "2025-06-14T16:12:13.509Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Establish channel partner network",
+        "_testId": 127,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "Patent disputes affecting the market"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8911,
+        "timestamp": "2025-06-14T16:12:22.526Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Respond to supply chain disruption",
+        "_testId": 128,
+        "_category": "crisis_management",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 6915,
+        "timestamp": "2025-06-14T16:12:29.546Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Enter the healthcare vertical with our existing technology",
+        "_testId": 129,
+        "_category": "market_expansion",
+        "_expectedComplexity": "low",
+        "requested_decisions": 5
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 5,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 14174,
+        "timestamp": "2025-06-14T16:12:43.829Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Release our enterprise security suite",
+        "_testId": 130,
+        "_category": "product_launch",
+        "_expectedComplexity": "low",
+        "context_description": "Three new competitors entered market this year. Patent disputes affecting the market"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 7213,
+        "timestamp": "2025-06-14T16:12:51.143Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Digitize our supply chain management",
+        "_testId": 131,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low",
+        "context_links": "https://notion.so/company/Strategic-Initiative-ajv7vuzo7bi"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8348,
+        "timestamp": "2025-06-14T16:12:59.595Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Defend against price competition from established players",
+        "_testId": 132,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 17259,
+        "timestamp": "2025-06-14T16:13:16.961Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Raise a Series B funding round of $25M",
+        "_testId": 134,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 7107,
+        "timestamp": "2025-06-14T16:13:30.711Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Create joint venture in new market",
+        "_testId": 135,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 13581,
+        "timestamp": "2025-06-14T16:13:44.410Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Handle key executive departure",
+        "_testId": 136,
+        "_category": "crisis_management",
+        "_expectedComplexity": "low",
+        "context_description": "Product quality issues affecting reputation. Recent leadership changes affecting strategy",
+        "context_links": "https://docs.google.com/document/d/10o22svnvo2l/edit"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 7732,
+        "timestamp": "2025-06-14T16:13:52.249Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Implement AI-driven customer service automation",
+        "_testId": 139,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low",
+        "context_description": "New regulations coming into effect"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8635,
+        "timestamp": "2025-06-14T16:14:24.940Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Counter competitor's acquisition of key supplier",
+        "_testId": 140,
+        "_category": "competitive_response",
+        "_expectedComplexity": "high"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected high complexity, but system assessed medium",
+          "expected": "high",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 11835,
+        "timestamp": "2025-06-14T16:14:36.885Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Expand customer support to 24/7 global coverage",
+        "_testId": 141,
+        "_category": "scaling_operations",
+        "_expectedComplexity": "high",
+        "context_links": "https://company.com/strategy-docs/initiative-xi8oq9xl8kc",
+        "requested_decisions": 5
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected high complexity, but system assessed medium",
+          "expected": "high",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 5,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8216,
+        "timestamp": "2025-06-14T16:14:45.212Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Optimize cash flow for sustainable growth",
+        "_testId": 142,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "Economic uncertainty affecting customer spending"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8536,
+        "timestamp": "2025-06-14T16:14:53.854Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Establish channel partner network",
+        "_testId": 143,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 19985,
+        "timestamp": "2025-06-14T16:15:13.949Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Manage reputation crisis from product failure",
+        "_testId": 144,
+        "_category": "crisis_management",
+        "_expectedComplexity": "high"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected high complexity, but system assessed medium",
+          "expected": "high",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9619,
+        "timestamp": "2025-06-14T16:15:23.679Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Introduce a mobile-first version of our product",
+        "_testId": 146,
+        "_category": "product_launch",
+        "_expectedComplexity": "low",
+        "context_links": "https://confluence.company.com/strategic-planning/g60aftv5p8i"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9688,
+        "timestamp": "2025-06-14T16:15:45.254Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Digitize our supply chain management",
+        "_testId": 147,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9796,
+        "timestamp": "2025-06-14T16:15:55.166Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Respond to competitor's patent challenges",
+        "_testId": 148,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low",
+        "context_description": "Technology disruption changing customer expectations. Patent disputes affecting the market"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9541,
+        "timestamp": "2025-06-14T16:16:04.817Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Establish international sales and support teams",
+        "_testId": 149,
+        "_category": "scaling_operations",
+        "_expectedComplexity": "low",
+        "requested_decisions": 4
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 4,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 10110,
+        "timestamp": "2025-06-14T16:16:15.041Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Prepare for an IPO within 24 months",
+        "_testId": 150,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 12558,
+        "timestamp": "2025-06-14T16:16:27.709Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Acquire complementary technology company",
+        "_testId": 151,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "Must comply with GDPR and SOX regulations",
+        "context_links": "https://company.com/strategy-docs/initiative-tdh9v7mpo99"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 12755,
+        "timestamp": "2025-06-14T16:16:40.572Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Handle key executive departure",
+        "_testId": 152,
+        "_category": "crisis_management",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 6412,
+        "timestamp": "2025-06-14T16:16:47.087Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Penetrate the enterprise segment with our SMB product",
+        "_testId": 153,
+        "_category": "market_expansion",
+        "_expectedComplexity": "low",
+        "requested_decisions": 5
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 5,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 16163,
+        "timestamp": "2025-06-14T16:17:03.356Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Introduce a mobile-first version of our product",
+        "_testId": 154,
+        "_category": "product_launch",
+        "_expectedComplexity": "low",
+        "context_description": "Three new competitors entered market this year"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8144,
+        "timestamp": "2025-06-14T16:17:11.604Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Modernize our legacy systems to cloud-native architecture",
+        "_testId": 155,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9967,
+        "timestamp": "2025-06-14T16:17:21.675Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Defend against price competition from established players",
+        "_testId": 156,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low",
+        "context_links": "https://company.com/strategy-docs/initiative-ir4s8jzop2c"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9322,
+        "timestamp": "2025-06-14T16:17:31.100Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Optimize cash flow for sustainable growth",
+        "_testId": 158,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 4736,
+        "timestamp": "2025-06-14T16:17:44.517Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Create joint venture in new market",
+        "_testId": 159,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 11542,
+        "timestamp": "2025-06-14T16:17:56.174Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Respond to supply chain disruption",
+        "_testId": 160,
+        "_category": "crisis_management",
+        "_expectedComplexity": "low",
+        "context_description": "Economic uncertainty affecting customer spending"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 4942,
+        "timestamp": "2025-06-14T16:18:01.228Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Enter the healthcare vertical with our existing technology",
+        "_testId": 161,
+        "_category": "market_expansion",
+        "_expectedComplexity": "low",
+        "context_links": "https://company.com/strategy-docs/initiative-16kwpw816b4",
+        "requested_decisions": 4
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 4,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9470,
+        "timestamp": "2025-06-14T16:18:10.812Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Digitize our supply chain management",
+        "_testId": 163,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low",
+        "context_description": "Patent disputes affecting the market"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 12069,
+        "timestamp": "2025-06-14T16:18:32.102Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Raise a Series B funding round of $25M",
+        "_testId": 166,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "Three new competitors entered market this year",
+        "context_links": "https://confluence.company.com/strategic-planning/s6tgwjjrhx"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 6373,
+        "timestamp": "2025-06-14T16:19:01.244Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Acquire complementary technology company",
+        "_testId": 167,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "output_validation",
+          "field": "/decisions/0/description",
+          "message": "must NOT have more than 300 characters"
+        },
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 7482,
+        "timestamp": "2025-06-14T16:19:08.835Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Handle key executive departure",
+        "_testId": 168,
+        "_category": "crisis_management",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9142,
+        "timestamp": "2025-06-14T16:19:18.087Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Establish a presence in the Latin American market",
+        "_testId": 169,
+        "_category": "market_expansion",
+        "_expectedComplexity": "low",
+        "context_description": "Consolidation happening in our industry",
+        "requested_decisions": 3
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 14722,
+        "timestamp": "2025-06-14T16:19:32.912Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Transform our sales process with digital tools",
+        "_testId": 171,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low",
+        "context_links": "https://docs.google.com/document/d/wnrwm4u268p/edit"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8490,
+        "timestamp": "2025-06-14T16:19:46.430Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Optimize cash flow for sustainable growth",
+        "_testId": 174,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 6228,
+        "timestamp": "2025-06-14T16:20:24.205Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Acquire complementary technology company",
+        "_testId": 175,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "Must comply with GDPR and SOX regulations"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 11635,
+        "timestamp": "2025-06-14T16:20:35.955Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Handle key executive departure",
+        "_testId": 176,
+        "_category": "crisis_management",
+        "_expectedComplexity": "low",
+        "context_links": "https://company.com/strategy-docs/initiative-4ib6kna3uz8"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 7432,
+        "timestamp": "2025-06-14T16:20:43.489Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Enter the healthcare vertical with our existing technology",
+        "_testId": 177,
+        "_category": "market_expansion",
+        "_expectedComplexity": "low",
+        "requested_decisions": 5
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 5,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 14051,
+        "timestamp": "2025-06-14T16:20:57.654Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Launch a freemium version to capture more market share",
+        "_testId": 178,
+        "_category": "product_launch",
+        "_expectedComplexity": "medium",
+        "context_description": "Market leader reducing prices aggressively. Technology disruption changing customer expectations"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected medium complexity, but system assessed high",
+          "expected": "medium",
+          "actual": "high"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 5,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 15925,
+        "timestamp": "2025-06-14T16:21:13.686Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Digitize our supply chain management",
+        "_testId": 179,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 12698,
+        "timestamp": "2025-06-14T16:21:26.499Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Defend against price competition from established players",
+        "_testId": 180,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 15078,
+        "timestamp": "2025-06-14T16:21:41.686Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Restructure debt to improve financial flexibility",
+        "_testId": 182,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 11469,
+        "timestamp": "2025-06-14T16:22:01.492Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Build ecosystem of technology integrations",
+        "_testId": 183,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 7242,
+        "timestamp": "2025-06-14T16:22:08.846Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Manage reputation crisis from product failure",
+        "_testId": 184,
+        "_category": "crisis_management",
+        "_expectedComplexity": "high",
+        "context_description": "Must comply with GDPR and SOX regulations"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected high complexity, but system assessed medium",
+          "expected": "high",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 11948,
+        "timestamp": "2025-06-14T16:22:20.900Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Migrate to a microservices architecture",
+        "_testId": 187,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low",
+        "context_description": "Consolidation happening in our industry"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 6672,
+        "timestamp": "2025-06-14T16:22:46.189Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Defend against price competition from established players",
+        "_testId": 188,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 10173,
+        "timestamp": "2025-06-14T16:22:56.474Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Expand customer support to 24/7 global coverage",
+        "_testId": 189,
+        "_category": "scaling_operations",
+        "_expectedComplexity": "high",
+        "requested_decisions": 5
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected high complexity, but system assessed medium",
+          "expected": "high",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 5,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 10519,
+        "timestamp": "2025-06-14T16:23:07.100Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Optimize cash flow for sustainable growth",
+        "_testId": 190,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "Technical team stretched across multiple projects. Recent leadership changes affecting strategy"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 7849,
+        "timestamp": "2025-06-14T16:23:15.053Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Create joint venture in new market",
+        "_testId": 191,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low",
+        "context_links": "https://confluence.company.com/strategic-planning/5dmjboo8riq"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 11272,
+        "timestamp": "2025-06-14T16:23:26.435Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Manage reputation crisis from product failure",
+        "_testId": 192,
+        "_category": "crisis_management",
+        "_expectedComplexity": "high"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected high complexity, but system assessed medium",
+          "expected": "high",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8773,
+        "timestamp": "2025-06-14T16:23:35.319Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Enter the healthcare vertical with our existing technology",
+        "_testId": 193,
+        "_category": "market_expansion",
+        "_expectedComplexity": "low",
+        "context_description": "Cultural integration challenges from acquisition",
+        "requested_decisions": 3
+      },
+      "errors": [
+        {
+          "type": "output_validation",
+          "field": "/decisions/0/description",
+          "message": "must NOT have more than 300 characters"
+        },
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9906,
+        "timestamp": "2025-06-14T16:23:45.333Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Release our enterprise security suite",
+        "_testId": 194,
+        "_category": "product_launch",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8858,
+        "timestamp": "2025-06-14T16:23:54.306Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Digitize our supply chain management",
+        "_testId": 195,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9800,
+        "timestamp": "2025-06-14T16:24:04.208Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Respond to new competitor entering our market",
+        "_testId": 196,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low",
+        "context_description": "Economic uncertainty affecting customer spending",
+        "context_links": "https://company.com/strategy-docs/initiative-c51t4ew7vit"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 6574,
+        "timestamp": "2025-06-14T16:24:10.891Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Build redundant infrastructure across three regions",
+        "_testId": 197,
+        "_category": "scaling_operations",
+        "_expectedComplexity": "low",
+        "requested_decisions": 4
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 4,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 15186,
+        "timestamp": "2025-06-14T16:24:26.191Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Raise a Series B funding round of $25M",
+        "_testId": 198,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 7492,
+        "timestamp": "2025-06-14T16:24:33.786Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Establish channel partner network",
+        "_testId": 199,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "Product quality issues affecting reputation. Recent leadership changes affecting strategy"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 9207,
+        "timestamp": "2025-06-14T16:24:43.104Z"
+      }
+    },
+    {
+      "input": {
+        "strategic_intent": "Address significant security breach and rebuild trust",
+        "_testId": 200,
+        "_category": "crisis_management",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "business_logic",
+          "rule": "complexity_assessment_test_mismatch",
+          "message": "Test expected low complexity, but system assessed medium",
+          "expected": "low",
+          "actual": "medium"
+        }
+      ],
+      "apiResponse": {
+        "decisions": 3,
+        "hasPirWorkflow": true,
+        "hasFfirWorkflow": true
+      },
+      "performance": {
+        "responseTime": 8016,
+        "timestamp": "2025-06-14T16:24:51.235Z"
+      }
+    }
+  ]
+}

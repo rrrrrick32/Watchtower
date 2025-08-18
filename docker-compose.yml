@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  signalbridge-backend:
+    build:
+      context: ./signalbridge_01
+      dockerfile: Dockerfile
+    container_name: signalbridge-api
+    ports:
+      - "8000:8000"
+    environment:
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_KEY=${SUPABASE_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - LOG_LEVEL=INFO
+    env_file:
+      - .env.production
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  watchtower-frontend:
+    build:
+      context: ./watchtower_02
+      dockerfile: Dockerfile
+    container_name: watchtower-ui
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_URL=http://signalbridge-backend:8000
+      - REACT_APP_SUPABASE_URL=${SUPABASE_URL}
+      - REACT_APP_SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+    depends_on:
+      - signalbridge-backend
+    restart: unless-stopped
+
+networks:
+  default:
+    name: signalbridge-network

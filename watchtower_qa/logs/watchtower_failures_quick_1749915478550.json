@@ -1,0 +1,1265 @@
+{
+  "testName": "quick",
+  "timestamp": "2025-06-14T15:37:58.550Z",
+  "summary": {
+    "overview": {
+      "totalTests": 50,
+      "passed": 0,
+      "failed": 50,
+      "passRate": "0.00%"
+    },
+    "api": {
+      "totalCalls": 0,
+      "failures": 0,
+      "successRate": "0%"
+    },
+    "errors": {
+      "total": 50,
+      "byType": {
+        "input_validation": 150
+      }
+    }
+  },
+  "failedTests": [
+    {
+      "input": {
+        "strategic_intent": "Launch our SaaS platform in the Asian Pacific region",
+        "_testId": 1,
+        "_category": "market_expansion",
+        "_expectedComplexity": "medium",
+        "context_description": "Three new competitors entered market this year",
+        "context_links": "https://confluence.company.com/strategic-planning/xeuhxy028f",
+        "requested_decisions": 3
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Release our enterprise security suite",
+        "_testId": 2,
+        "_category": "product_launch",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Digitize our supply chain management",
+        "_testId": 3,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Defend against price competition from established players",
+        "_testId": 4,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low",
+        "context_description": "Technical team stretched across multiple projects"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Scale our marketing operations for growth",
+        "_testId": 5,
+        "_category": "scaling_operations",
+        "_expectedComplexity": "medium",
+        "requested_decisions": 4
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Raise a Series B funding round of $25M",
+        "_testId": 6,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low",
+        "context_links": "https://notion.so/company/Strategic-Initiative-swir7djrzqg"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Acquire complementary technology company",
+        "_testId": 7,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "Technology disruption changing customer expectations"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Address significant security breach and rebuild trust",
+        "_testId": 8,
+        "_category": "crisis_management",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Expand into the European market within 18 months",
+        "_testId": 9,
+        "_category": "market_expansion",
+        "_expectedComplexity": "medium",
+        "requested_decisions": 5
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Introduce a mobile-first version of our product",
+        "_testId": 10,
+        "_category": "product_launch",
+        "_expectedComplexity": "low",
+        "context_description": "Patent disputes affecting the market. Consolidation happening in our industry"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Modernize our legacy systems to cloud-native architecture",
+        "_testId": 11,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low",
+        "context_links": "https://notion.so/company/Strategic-Initiative-xu72cdy1bx"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Respond to competitor's patent challenges",
+        "_testId": 12,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Build redundant infrastructure across three regions",
+        "_testId": 13,
+        "_category": "scaling_operations",
+        "_expectedComplexity": "low",
+        "context_description": "Rapid technological change in our industry",
+        "requested_decisions": 3
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Prepare for an IPO within 24 months",
+        "_testId": 14,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Acquire complementary technology company",
+        "_testId": 15,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Handle key executive departure",
+        "_testId": 16,
+        "_category": "crisis_management",
+        "_expectedComplexity": "low",
+        "context_description": "Key team members unavailable for 3 months",
+        "context_links": "https://docs.google.com/document/d/3y0vivqmq9p/edit"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Launch our SaaS platform in the Asian Pacific region",
+        "_testId": 17,
+        "_category": "market_expansion",
+        "_expectedComplexity": "medium",
+        "requested_decisions": 4
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Release our enterprise security suite",
+        "_testId": 18,
+        "_category": "product_launch",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Implement AI-driven customer service automation",
+        "_testId": 19,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low",
+        "context_description": "Product quality issues affecting reputation"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Address competitive threat from big tech companies",
+        "_testId": 20,
+        "_category": "competitive_response",
+        "_expectedComplexity": "medium"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Expand customer support to 24/7 global coverage",
+        "_testId": 21,
+        "_category": "scaling_operations",
+        "_expectedComplexity": "high",
+        "context_links": "https://docs.google.com/document/d/zr3z4ld3ydd/edit",
+        "requested_decisions": 5
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Raise a Series B funding round of $25M",
+        "_testId": 22,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "Seasonal demand patterns to consider. New regulations coming into effect"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Form strategic partnership with industry leader",
+        "_testId": 23,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "medium"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Manage reputation crisis from product failure",
+        "_testId": 24,
+        "_category": "crisis_management",
+        "_expectedComplexity": "high"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Penetrate the enterprise segment with our SMB product",
+        "_testId": 25,
+        "_category": "market_expansion",
+        "_expectedComplexity": "low",
+        "context_description": "Patent disputes affecting the market. Three new competitors entered market this year",
+        "requested_decisions": 3
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Develop and launch our API marketplace",
+        "_testId": 26,
+        "_category": "product_launch",
+        "_expectedComplexity": "medium",
+        "context_links": "https://confluence.company.com/strategic-planning/lbuqe15tcgd"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Implement AI-driven customer service automation",
+        "_testId": 27,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Counter competitor's acquisition of key supplier",
+        "_testId": 28,
+        "_category": "competitive_response",
+        "_expectedComplexity": "high",
+        "context_description": "Three new competitors entered market this year"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Scale our marketing operations for growth",
+        "_testId": 29,
+        "_category": "scaling_operations",
+        "_expectedComplexity": "medium",
+        "requested_decisions": 4
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Prepare for an IPO within 24 months",
+        "_testId": 30,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Build ecosystem of technology integrations",
+        "_testId": 31,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "Three new competitors entered market this year. Technology disruption changing customer expectations",
+        "context_links": "https://confluence.company.com/strategic-planning/fmg9g3vukb9"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Navigate regulatory compliance investigation",
+        "_testId": 32,
+        "_category": "crisis_management",
+        "_expectedComplexity": "high"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Launch our SaaS platform in the Asian Pacific region",
+        "_testId": 33,
+        "_category": "market_expansion",
+        "_expectedComplexity": "medium",
+        "requested_decisions": 5
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Introduce a mobile-first version of our product",
+        "_testId": 34,
+        "_category": "product_launch",
+        "_expectedComplexity": "low",
+        "context_description": "New regulations coming into effect"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Transform our sales process with digital tools",
+        "_testId": 35,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Respond to new competitor entering our market",
+        "_testId": 36,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low",
+        "context_links": "https://sharepoint.company.com/strategy/18pwbzy0en8"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Scale our marketing operations for growth",
+        "_testId": 37,
+        "_category": "scaling_operations",
+        "_expectedComplexity": "medium",
+        "context_description": "Rapid technological change in our industry",
+        "requested_decisions": 3
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Achieve profitability within 12 months",
+        "_testId": 38,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Build ecosystem of technology integrations",
+        "_testId": 39,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Navigate regulatory compliance investigation",
+        "_testId": 40,
+        "_category": "crisis_management",
+        "_expectedComplexity": "high",
+        "context_description": "Must comply with GDPR and SOX regulations"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Expand into the European market within 18 months",
+        "_testId": 41,
+        "_category": "market_expansion",
+        "_expectedComplexity": "medium",
+        "context_links": "https://confluence.company.com/strategic-planning/z3vuqn6x3d",
+        "requested_decisions": 4
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Release our enterprise security suite",
+        "_testId": 42,
+        "_category": "product_launch",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Transform our sales process with digital tools",
+        "_testId": 43,
+        "_category": "digital_transformation",
+        "_expectedComplexity": "low",
+        "context_description": "Supply chain instability. Seasonal demand patterns to consider"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Respond to competitor's patent challenges",
+        "_testId": 44,
+        "_category": "competitive_response",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Build redundant infrastructure across three regions",
+        "_testId": 45,
+        "_category": "scaling_operations",
+        "_expectedComplexity": "low",
+        "requested_decisions": 5
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Raise a Series B funding round of $25M",
+        "_testId": 46,
+        "_category": "financial_strategy",
+        "_expectedComplexity": "low",
+        "context_description": "New regulations coming into effect",
+        "context_links": "https://notion.so/company/Strategic-Initiative-m8r1sp4lxqs"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Form strategic partnership with industry leader",
+        "_testId": 47,
+        "_category": "partnership_strategy",
+        "_expectedComplexity": "medium"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Handle key executive departure",
+        "_testId": 48,
+        "_category": "crisis_management",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Penetrate the enterprise segment with our SMB product",
+        "_testId": 49,
+        "_category": "market_expansion",
+        "_expectedComplexity": "low",
+        "context_description": "Existing technical debt slowing development",
+        "requested_decisions": 3
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    },
+    {
+      "input": {
+        "strategic_intent": "Release our enterprise security suite",
+        "_testId": 50,
+        "_category": "product_launch",
+        "_expectedComplexity": "low"
+      },
+      "errors": [
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        },
+        {
+          "type": "input_validation",
+          "message": "must NOT have additional properties"
+        }
+      ],
+      "apiResponse": null,
+      "performance": {}
+    }
+  ]
+}

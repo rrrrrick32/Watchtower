@@ -1,0 +1,51 @@
+# ---- OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Node/JS
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+.yarnrc.yml
+.next/
+.nuxt/
+out/
+dist/
+build/
+.cache/
+.turbo/
+coverage/
+*.log
+
+# ---- Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+.env.*
+.python-version
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# ---- General build & temp
+tmp/
+temp/
+*.bak
+*.swp
+*.swo
+
+# ---- Data / models (keep out of Git; host elsewhere or use LFS)
+data/
+datasets/
+models/
+artifacts/
+checkpoints/
+
+# ---- Docker
+**/docker-data/
