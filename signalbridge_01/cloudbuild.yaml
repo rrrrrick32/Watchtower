@@ -7,7 +7,7 @@ steps:
     args: ['run', 'deploy', 'signalbridge', 
            '--image', 'gcr.io/$PROJECT_ID/signalbridge',
            '--platform', 'managed',
-           '--region', 'us-central1',
+           '--region', 'us-east4',
            '--allow-unauthenticated']
 options:
   logging: CLOUD_LOGGING_ONLY
